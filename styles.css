@@ -140,7 +140,7 @@ body{   /*this body section will add styles to the whole page*/
   }
   .quartercolumn {
     width: 20.6%;
-    height: 900px;
+    height: 1000px;
     background-color: #53e068;
     float: left;
     border-style: solid;
