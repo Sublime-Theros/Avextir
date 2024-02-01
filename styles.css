@@ -145,6 +145,7 @@ body{   /*this body section will add styles to the whole page*/
     border-style: solid;
     border-width: 1%;
     padding: 2%;
+    margin: 30px;
   }
 .mainpageright {
   width: 40%;
