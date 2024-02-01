@@ -1,0 +1,196 @@
+body{   /*this body section will add styles to the whole page*/
+    background-color: #5a8f80; /*This changes the background colour*/
+    text-align: center; /*This piece of code makes all content center in to the middle*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin: auto;
+    width: 90%;
+} 
+
+
+
+.top{
+    background-color: orange;
+    height: 500px;
+    width: 100%;
+
+}
+
+.l{
+    background-color: rgb(243, 52, 4);
+    height: 300px;
+    width: 60%;
+    float: left;
+}
+
+.m{
+    
+    height: 300px;
+    width: 10%;
+    float: left;
+}
+
+.r{
+    background-color: rgb(221, 161, 210);
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+
+.headerortitle{
+    background-color: #5a8f80;
+    height: 110px;
+    width: 60%;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 1px;
+
+}
+.logo{
+  background-color: #5a8f80;
+  height: 110px;
+  width: auto;
+  text-align: left;
+  padding-top: 0px;
+  float: left;
+}
+.maintext{
+    background-color: #19e0a8;
+    height: 900px;
+    width: 58%;
+    float: left;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 150px;
+    
+}
+.onebyoneimage{
+    background-color: #e0390b;
+    width: 350px;
+    height:350px;
+    float:right;
+}
+.column {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+  }
+.columnr {
+    float: right;
+    width: 50%;
+    height: auto;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .center {
+    text-align: center;
+  }
+  nav {
+    list-style-type: none;
+    margin-top: -70px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5a8f80;
+   
+  }
+  ul {
+    list-style-type: none;
+    margin:0%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5a8f80;
+    
+  }
+  
+  li {
+    float: right;
+    border: solid; 
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #19e0a8;
+  }
+  .leftfloat {
+    text-align: left;
+    float: left;
+  }
+  .rightfloat {
+    text-align: right;
+    float: right;
+  }
+  .paddingleft {
+    padding-left: 100px;
+  }
+  .quartercolumn {
+    width: 20.6%;
+    height: 900px;
+    background-color: #53e068;
+    float: left;
+    border-style: solid;
+    border-width: 1%;
+    padding: 2%;
+  }
+.mainpageright {
+  width: 40%;
+  float: right;
+  height: 1050px;
+  background-color: #e0390b;
+  
+
+}
+.bottomtext {
+  width: 100%;
+  height: 100px;
+  font-size: x-large;
+  font-weight: bolder;
+  padding-top: 10px;
+  float: right;
+}
+.cbright {
+  width: 60%;
+  background-color: #53e068;
+  text-align: center;
+  float: right;
+  height: 1000px;
+  line-height: 45px;
+}
+.cbleft {
+  width: 40%;
+  background-color: #19e0a8;
+  text-align: center;
+  float: left;
+  height: 1000px;
+  line-height: 45px;
+}
+.pagetopbuffer {
+  height: 50px;
+}
+.bottomtextcb {
+  width: 80%;
+  height: 100px;
+  font-size: x-large;
+  font-weight: bolder;
+  padding-top: 10px;
+  float: right;
+}
+.cbbottomside {
+  width: 10%;
+  height: 100px;
+  float: right;
+}
