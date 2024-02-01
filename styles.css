@@ -167,7 +167,7 @@ body{   /*this body section will add styles to the whole page*/
   width: 59.3%;
   background-color: #53e068;
   text-align: center;
-  float: right;
+  float: left;
   height: 1000px;
   line-height: 45px;
   border-style: solid;
