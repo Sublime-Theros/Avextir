@@ -94,11 +94,11 @@ body{   /*this body section will add styles to the whole page*/
   }
   nav {
     list-style-type: none;
-    margin-top: -70px;
+    margin-top: -60px;
     padding: 0;
     overflow: hidden;
     background-color: #5a8f80;
-   
+    font-size: 0.8vw;
   }
   ul {
     list-style-type: none;
